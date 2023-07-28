@@ -2,6 +2,8 @@
 
 TOPOLOGIES
 
+https://www.geeksforgeeks.org/types-of-network-topology/
+
 
 learn about different types of connections between the computers.
 
