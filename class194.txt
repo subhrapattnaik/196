@@ -1,0 +1,87 @@
+In Computer Network ,there are various ways through which different components are connected to one another.
+Network Topology is the way that defines the structure, and how these components are connected to each other.
+
+
+Types of Network Topology
+
+The arrangement of a network that comprises nodes and connecting lines via sender and receiver is referred to as Network Topology. The various network topologies are:
+
+    Point to Point Topology
+    Mesh Topology
+    Star Topology
+    Bus Topology
+    Ring Topology
+    Tree Topology
+    Hybrid Topology
+-----------------------------------------------------------------------------------------------------------------------
+Bus Topology
+
+Bus Topology is a network type in which every computer and network device is connected to a single cable.
+It is bi-directional. It is a multi-point connection and a non-robust topology because if the backbone fails the topology crashes.
+In Bus Topology, various MAC (Media Access Control) protocols are followed by LAN ethernet connections like TDMA,
+Pure Aloha, CDMA, Slotted Aloha, etc.
+
+
+A bus topology with shared backbone cable. The nodes are connected to the channel via drop lines. 
+
+Advantages of Bus Topology
+
+    If N devices are connected to each other in a bus topology, then the number of cables required to connect them is 1, 
+    known as backbone cable, and N drop lines are required.
+    
+Coaxial or twisted pair cables are mainly used in bus-based networks that support up to 10 Mbps.
+
+    The cost of the cable is less compared to other topologies, but it is used to build small networks.
+
+    Bus topology is familiar technology as installation and troubleshooting techniques are well known.
+
+    CSMA is the most common method for this type of topology.
+
+---------------------------------------
+Drawbacks of  Bus Topology
+
+    A bus topology is quite simpler, but still, it requires a lot of cabling.
+
+    If the common cable fails, then the whole system will crash down.
+
+    If the network traffic is heavy, it increases collisions in the network. To avoid this, 
+    various protocols are used in the MAC layer known as Pure Aloha, Slotted Aloha, CSMA/CD, etc.
+
+    Adding new devices to the network would slow down networks.
+    Security is very low.
+
+A common example of bus topology is the Ethernet LAN, where all devices are connected to a single coaxial cable or twisted pair cable.
+This topology is also used incable television networks. For more, refer to the Advantages and Disadvantages of Bus Topology.
+
+------------------------------------------------------------------------------
+Ring Topology
+
+In a Ring Topology, it forms a ring connecting devices with exactly two neighboring devices.
+A number of repeaters are used for Ring topology with a large number of nodes, because if someone wants to send some data 
+to the last node in the ring topology with 100 nodes, then the data will have to pass through 99 nodes to reach the 100th node.
+Hence to prevent data loss repeaters are used in the network.
+
+The data flows in one direction, i.e. it is unidirectional, but it can be made bidirectional 
+by having 2 connections between each Network Node, it is called Dual Ring Topology. In-Ring Topology,
+the Token Ring Passing protocol is used by the workstations to transmit the data.
+
+The most common access method of ring topology is token passing.
+
+    Token passing: It is a network access method in which a token is passed from one node to another node.
+    Token: It is a frame that circulates around the network.
+
+
+Advantages of Ring Topology
+
+    The data transmission is high-speed.
+    The possibility of collision is minimum in this type of topology.
+    Cheap to install and expand.
+    It is less costly than a star topology.
+
+Drawbacks of Ring Topology
+
+    The failure of a single node in the network can cause the entire network to fail.
+    Troubleshooting is difficult in this topology.
+    The addition of stations in between or the removal of stations can disturb the whole topology.
+    Less secure. 
+------------------------------------------------------------
